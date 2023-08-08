@@ -1,0 +1,17 @@
+### Simple GET to root
+GET http://localhost:1234
+
+### Simple GET to DITTO's JSON
+GET http://localhost:1234/pokemon/ditto
+
+### Create pokemon
+POST http://localhost:1234/pokemon
+Content-Type: application/json
+
+{
+    "name": "ditto",
+    "type": "normal",
+    "moves" : [
+        "transform"
+    ]
+}
