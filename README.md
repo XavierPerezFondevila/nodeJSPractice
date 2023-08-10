@@ -10,3 +10,8 @@
 
     - Extensions that i worked with:
         . REST Client
+
+### Second step
+
+    - Creating CRUD API
+    - using Zod to validate object with schema
